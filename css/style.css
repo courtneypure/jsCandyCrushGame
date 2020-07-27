@@ -1,0 +1,76 @@
+.grid {
+  height: 560px;
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 40px;
+  background-color: #eee5a4;
+  border-radius: 10px;
+
+}
+
+.grid div {
+  height: 70px;
+  width: 70px;
+}
+
+body {
+  background-color: #00884a;
+  padding-bottom: 35px;
+  min-width: 550px;
+  background-image: url(/_AI/ACGrass.svg);
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 40%;
+}
+
+h3 {
+  display: flex;
+  width: 35%;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #00884a;
+}
+
+#score {
+  font-size: 55px;
+}
+
+.Score-Board {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 25%;
+}
+
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  width: 35%;
+  margin: auto;
+  padding-top: 70px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #eee5a4; 
+}
